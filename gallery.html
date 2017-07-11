@@ -1,132 +1,95 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="description" content="" />
-<meta name="keywords" content="" />
-<title>Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
 
+<title>Gallery</title>
+
+<!-- Bootstrap Core CSS -->
+    <link href="css2/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css2/logo-nav.css" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="examples.css" media="screen"/>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 <link href="css/theme.css" rel="stylesheet" type="text/css" />
-<link href="css/woocommerce.css" rel="stylesheet" type="text/css" />
 
+<script type="text/javascript">
+	$( document ).ready(function( $ ) {
+		$( '#example3' ).sliderPro({
+			width: 2060,
+			height: 900,
+			fade: true,
+			arrows: true,
+			buttons: false,
+			fullScreen: true,
+			shuffle: true,
+			smallSize: 500,
+			mediumSize: 1000,
+			largeSize: 3000,
+			thumbnailArrows: true,
+			autoplay: true
+		});
+	});
+</script>
 
 </head>
+
 <body>
+<div class="container">
+<!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
 
-<header>
-	 <div class="tm-header-offset">  <!-- Start header offset-->
-		<div class="tm-head-a-box tm-medium-padding">
-			<div class="uk-container uk-container-center">
-				<div class="uk-grid">
-					<!-- Start adress widget area -->
-					<div class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 tm-text-left">
-						<div class=" uk-hidden-small tm-p-top-medium widget_text">
-							<i class="uk-icon-map-marker"></i> Nanties Gardens, Block A, Room 304,<br>Mbaazi Ave, Valley Arcade,<br>P.O.Boz 12023-00100.
-						</div>
-					</div>
-					<!-- End adress widget area -->
-					<!-- Start top-logo widget area -->
-					<div class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 uk-text-center">
-					    <a class="tm-logo" href="index.html"></a>
-					</div>
-					<!-- End top-logo widget area -->
-					<!-- Start social-icons & search widget area -->
-					<div class="uk-width-small-1-1 uk-width-medium-1-3 uk-width-large-1-3 tm-text-right">
-						<div class="social-icons clearfix">
-							<div class=" uk-hidden-small tm-p-top-medium widget_text">
-								<ul class="social-icons">
-									<li><a href="http://www.facebook.com" target="_blank"><i class="uk-icon-facebook-f"></i></a></li>
-									<li><a href="http://twitter.com/" target="_blank"><i class="uk-icon-twitter"></i></a></li>
-									<li><a href="http://plus.google.com/" target="_blank"><i class="uk-icon-google-plus"></i></a></li>
-									<li><a href="http://www.linkedin.com" target="_blank"><i class="uk-icon-linkedin"></i></a></li>
-									<li><a href="http://www.youtube.com/" target="_blank"><i class="uk-icon-youtube"></i></a></li>
-									<li><a href="http://vk.com/" target="_blank"><i class="uk-icon-vk"></i></a></li>
-									<li><a href="http://instagram.com/" target="_blank"><i class="uk-icon-instagram"></i></a></li>
-								</ul>
-							</div>
-						</div>
-						<!-- End search widget area -->
-						<!-- End search widget area -->
-					</div>
-					<!-- End social-icons widget area -->
-				</div>
-			</div>
-		</div>
-
-		<div style="height: 72px;" class="uk-sticky-placeholder">
-			<div style="margin: 0px;" class="tm-fixed-menu" data-uk-sticky="">  <!-- Start fixed menu-->
-				<div class="tm-nav-a-box">
-					<div class="uk-container uk-container-center">
-						<nav class="uk-navbar">
-							<!--tm-navbar (hide defolt styles) -->
-							<ul class="uk-navbar-nav uk-hidden-small">
-								<li class="uk-parent uk-active" data-uk-dropdown="{}" aria-haspopup="true" aria-expanded="false">
-									<a href="index.html" class="">HOME</a>
-
-								</li>
-								<li class="uk-parent" data-uk-dropdown="{}" aria-haspopup="true" aria-expanded="false">
-									<a href="about-us.html" class="">ABOUT US</a>
-								</li>
-								<li class="uk-parent" data-uk-dropdown="{}" aria-haspopup="true" aria-expanded="false">
-									<a href="event-list.html" class="">PROGRAMS & EVENTS</a>
-								</li>
-									<li>
-										<a href="gallery.html" class="">GALLERY</a>
-									</li>
-									<li>
-										<a href="downloads.html" class="">RESOURCE CENTER</a>
-									</li>
-									<li>
-										<a href="org-structure.html" class="">ORG-STRUCTURE</a>
-									</li>
-									<li>
-										<a href="contact-us.html" class="">CONTACT US</a>
-									</li>
-								</ul>
-								<a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas=""></a>
-						</nav>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- End fixed menu-->
-		<div class="breadcrumbs">
-			<div class="uk-container uk-container-center breadcrumbs-box">
-				<ul class="uk-breadcrumb">
-					<li><a href="index.html">Home</a></li>
-					<li class="uk-active"><span>gallery</span></li>
-				</ul>
-			</div>
-		</div>
-	</div>  <!-- End header offset-->
-</header>
-
-<div class="tm-slider-box tm-light-bg">
-    <section class="tm-slider uk-grid tm-none-padding" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>
-        <!-- start full width -->
-        <div class="uk-width-1-1">
-            <div class="uk-panel top-pageslider CuteChurch">
-
-                <div class="slider-module">
-                    <div class="uk-slidenav-position" data-uk-slideshow="{height: &#039;300&#039;, animation: &#039;fade&#039;, duration: &#039;&#039;, autoplay: true, autoplayInterval: &#039;5000&#039;, videoautoplay: false, videomute: false, kenburns: false}">
-                        <ul class="uk-slideshow uk-overlay-active">
-                            <li class="uk-cover uk-height-viewport  tm-wrap"><img src="./images/bg_page.jpg" alt="bg_page" width="1920" height="360" class="aligncenter size-full" />
-                            </li>
-                            <li class="uk-cover uk-height-viewport  tm-wrap"><img src="./images/bg_page-01.jpg" alt="bg_page-01" width="1920" height="300" class="aligncenter size-full" />
-                            </li>
-                            <li class="uk-cover uk-height-viewport  tm-wrap"><img src="./images/bg_page-02.jpg" alt="bg_page-02" width="1920" height="300" class="aligncenter size-full" />
-                            </li>
-                        </ul>
-
-                    </div>
-                </div>
-
+		    <img src="images/logo.png" alt="IDN-Logo" style="width:200px;height:62px;">
+                </a>
             </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="event-list.html">EVENTS</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">GALLERY</a>
+                    </li>
+                    <li>
+                        <a href="downloads.html">RESOURCE CENTER</a>
+                    </li>
+                    <li>
+                        <a href="org-structure.html">ORGANISATION-STRUCTURE</a>
+                    </li>
+                    <li>
+                        <a href="contact-us.html">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <!-- end full width -->
-    </section>
+        <!-- /.container -->
+    </nav>
 </div>
+
+
+
+
 
 <div class="tm-top-d-box tm-light-bg">
     <div class="uk-container uk-container-center">
@@ -136,17 +99,19 @@
                     <h1 class="tm-title tm-text-center tm-p-top-medium">
                         <span class="border">Gallery</span>
                     </h1>
-                    <div>In sollicitudin, ipsum nec auctor malesuada, elit turpis fermentum odio, ac vestibulum dui risus non elit. Quisque varius ex arcu, vitae rhoncus justo lacinia ac. Nunc eu bibendum mauris, et tincidunt ex. Duis non aliquam nibh.</div>
+                    <div>Click on a pic to enlarge.</div>
                     <div class="uk-margin">
                         <ul id="tm-gallery-filter" class="uk-subnav uk-subnav-pill uk-margin-bottom">
-
+                            <li class="uk-active" data-uk-filter="">
+                                <a href="#">All</a>
+                            </li>
 
                         </ul>
                         <div class="uk-grid-width-small-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4" data-uk-grid="{controls: '#tm-gallery-filter', animation: 'uk-animation-fade, uk-animation-slide-left'}">
-                            <div data-uk-filter="OTHER">
+                            <div data-uk-filter="ALL">
                                 <div class="uk-panel">
                                     <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/dennis-wendo.jpg" alt="">
+                                        <img class="uk-overlay-scale" src="./images/dennis-wendo.jpg" alt="" style="width:350px;height:300px;">
                                     </figure>
                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
                                         <div class="tm-my-overlay uk-width-1-1">
@@ -156,13 +121,13 @@
                                     <a class="uk-position-cover"
                                            data-uk-lightbox="{group:'gallery-group'}"
                                            data-lightbox-type="image"
-                                           href="./images/gall-img-015.jpg"></a>
+                                           href="./images/dennis-wendo.jpg"></a>
                                 </div>
                             </div>
                             <div data-uk-filter="ALL">
                                 <div class="uk-panel">
                                     <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/" alt="">
+                                        <img class="uk-overlay-scale" src="./images/francis-onyango.jpg" alt="" style="width:350px;height:300px;">
                                     </figure>
                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
                                         <div class="tm-my-overlay uk-width-1-1">
@@ -172,13 +137,13 @@
                                     <a class="uk-position-cover"
                                        data-uk-lightbox="{group:'gallery-group'}"
                                        data-lightbox-type="image"
-                                       href="./images/dennis-wendo.jpg"></a>
+                                       href="./images/francis-onyango.jpg"></a>
                             	</div>
                             </div>
-                            <div data-uk-filter="OTHER">
+                            <div data-uk-filter="ALL">
                                 <div class="uk-panel">
                                     <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/francis-onyango.jpg" alt="">
+                                        <img class="uk-overlay-scale" src="./images/IDN-Angela-Press-Con.jpg" alt="" style="width:350px;height:300px;">
                                     </figure>
                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
                                         <div class="tm-my-overlay uk-width-1-1">
@@ -188,473 +153,427 @@
                                     <a class="uk-position-cover"
                                    data-uk-lightbox="{group:'gallery-group'}"
                                    data-lightbox-type="image"
-                                   href="./images/gall-img-011.jpg"></a>
+                                   href="./images/IDN-Angela-Press-Con.jpg"></a>
+                                </div>
+                            </div><br>
+                            <div data-uk-filter="ALL">
+                                <div class="uk-panel">
+                                    <figure class="uk-overlay uk-overlay-hover">
+                                        <img class="uk-overlay-scale" src="./images/IMG_6856.JPG" alt="" style="width:350px;height:300px;">
+                                    </figure>
+                                    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
+                                        <div class="tm-my-overlay uk-width-1-1">
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/IMG_6856.JPG"></a>
+                                </div>
+                            </div>
+                            <div data-uk-filter="ALL">
+                                <div class="uk-panel">
+                                    <figure class="uk-overlay uk-overlay-hover">
+                                        <img class="uk-overlay-scale" src="./images/IMG_7008.JPG" alt="" style="width:350px;height:300px;">
+                                    </figure>
+                                    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
+                                        <div class="tm-my-overlay uk-width-1-1">
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/IMG_7008.JPG"></a>
+                                </div>
+                            </div>
+                            <div data-uk-filter="ALL">
+                                <div class="uk-panel">
+                                    <figure class="uk-overlay uk-overlay-hover">
+                                        <img class="uk-overlay-scale" src="./images/IMG_7024.JPG" alt="" style="width:350px;height:300px;">
+                                    </figure>
+                                    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
+                                        <div class="tm-my-overlay uk-width-1-1">
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/IMG_7024.JPG"></a>
+                                </div>
+                            </div>
+                            <div data-uk-filter="ALL">
+                                <div class="uk-panel">
+                                    <figure class="uk-overlay uk-overlay-hover">
+                                        <img class="uk-overlay-scale" src="./images/IMG_7043.JPG" alt="" style="width:350px;height:300px;">
+                                    </figure>
+                                    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
+                                        <div class="tm-my-overlay uk-width-1-1">
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/IMG_7043.JPG"></a>
+                                </div>
+                            </div>
+
+			    <div data-uk-filter="ALL">
+                                <div class="uk-panel">
+                                    <figure class="uk-overlay uk-overlay-hover">
+                                        <img class="uk-overlay-scale" src="./images/IMG_7052.JPG" alt="" style="width:350px;height:300px;">
+                                    </figure>
+                                    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
+                                        <div class="tm-my-overlay uk-width-1-1">
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/IMG_7052.JPG"></a>
                                 </div>
                             </div>
 
                             <div data-uk-filter="ALL">
                                 <div class="uk-panel">
                                     <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/IDN-Angela-Press-Con.jpg" alt="gall-img-013">
+                                        <img class="uk-overlay-scale" src="./images/IMG_7075.JPG" alt="" style="width:350px;height:300px;">
                                     </figure>
                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
                                         <div class="tm-my-overlay uk-width-1-1">
                                             <p></p>
                                         </div>
                                     </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-013.jpg"></a>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/IMG_7075.JPG"></a>
                                 </div>
                             </div>
+
+			    <div data-uk-filter="ALL">
+                                <div class="uk-panel">
+                                    <figure class="uk-overlay uk-overlay-hover">
+                                        <img class="uk-overlay-scale" src="./images/IMG_7080.JPG" alt="" style="width:350px;height:300px;">
+                                    </figure>
+                                    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
+                                        <div class="tm-my-overlay uk-width-1-1">
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/IMG_7080.JPG"></a>
+                                </div>
+                            </div>
+
                             <div data-uk-filter="ALL">
                                 <div class="uk-panel">
                                     <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/IMG_6856.JPG" alt="">
+                                        <img class="uk-overlay-scale" src="./images/IMG_7087.JPG" alt="" style="width:350px;height:300px;">
                                     </figure>
                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
                                         <div class="tm-my-overlay uk-width-1-1">
                                             <p></p>
                                         </div>
                                     </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-010.jpg"></a>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/IMG_7087.JPG"></a>
                                 </div>
                             </div>
-                            
+
+			    <div data-uk-filter="ALL">
+                                <div class="uk-panel">
+                                    <figure class="uk-overlay uk-overlay-hover">
+                                        <img class="uk-overlay-scale" src="./images/IMG_7093.JPG" alt="" style="width:350px;height:300px;">
+                                    </figure>
+                                    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
+                                        <div class="tm-my-overlay uk-width-1-1">
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/IMG_7093.JPG"></a>
+                                </div>
+                            </div>
+
                             <div data-uk-filter="ALL">
                                 <div class="uk-panel">
                                     <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/IMG_7008.JPG" alt="gall-img-016">
+                                        <img class="uk-overlay-scale" src="./images/IMG_7097.JPG" alt="" style="width:350px;height:300px;">
                                     </figure>
                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
                                         <div class="tm-my-overlay uk-width-1-1">
                                             <p></p>
                                         </div>
                                     </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/IMG_7097.JPG"></a>
                                 </div>
                             </div>
 
-														<div data-uk-filter="ALL">
+		            <div data-uk-filter="ALL">
                                 <div class="uk-panel">
                                     <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/IMG_7024.JPG" alt="gall-img-016">
+                                        <img class="uk-overlay-scale" src="./images/IMG_7104.JPG" alt="" style="width:350px;height:300px;">
                                     </figure>
                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
                                         <div class="tm-my-overlay uk-width-1-1">
                                             <p></p>
                                         </div>
                                     </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/IMG_7104.JPG"></a>
                                 </div>
                             </div>
 
-														<div data-uk-filter="ALL">
+                            <div data-uk-filter="ALL">
                                 <div class="uk-panel">
                                     <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/IMG_7023.JPG" alt="gall-img-016">
+                                        <img class="uk-overlay-scale" src="./images/IMG_7118.JPG" alt="" style="width:350px;height:300px;">
                                     </figure>
                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
                                         <div class="tm-my-overlay uk-width-1-1">
                                             <p></p>
                                         </div>
                                     </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/IMG_7118.JPG"></a>
                                 </div>
                             </div>
 
-														<div data-uk-filter="ALL">
+			    <div data-uk-filter="ALL">
                                 <div class="uk-panel">
                                     <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/IMG_7025.JPG" alt="gall-img-016">
+                                        <img class="uk-overlay-scale" src="./images/IMG_7495.JPG" alt="" style="width:350px;height:300px;">
                                     </figure>
                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
                                         <div class="tm-my-overlay uk-width-1-1">
                                             <p></p>
                                         </div>
                                     </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/IMG_7495.JPG"></a>
                                 </div>
                             </div>
 
-														<div data-uk-filter="ALL">
+                            <div data-uk-filter="ALL">
                                 <div class="uk-panel">
                                     <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/IMG_7043.JPG" alt="gall-img-016">
+                                        <img class="uk-overlay-scale" src="./images/IMG_7496.JPG" alt="" style="width:350px;height:300px;">
                                     </figure>
                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
                                         <div class="tm-my-overlay uk-width-1-1">
                                             <p></p>
                                         </div>
                                     </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/IMG_7496.JPG"></a>
                                 </div>
                             </div>
 
-														<div data-uk-filter="ALL">
+                            <div data-uk-filter="ALL">
                                 <div class="uk-panel">
                                     <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/IMG_7052.JPG" alt="gall-img-016">
+                                        <img class="uk-overlay-scale" src="./images/IMG_7500.JPG" alt="" style="width:350px;height:300px;">
                                     </figure>
                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
                                         <div class="tm-my-overlay uk-width-1-1">
                                             <p></p>
                                         </div>
                                     </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/IMG_7500.JPG"></a>
                                 </div>
                             </div>
 
-														<div data-uk-filter="ALL">
+                            <div data-uk-filter="ALL">
                                 <div class="uk-panel">
                                     <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/IMG_7075.JPG" alt="gall-img-016">
+                                        <img class="uk-overlay-scale" src="./images/IMG_7525.JPG" alt="" style="width:350px;height:300px;">
                                     </figure>
                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
                                         <div class="tm-my-overlay uk-width-1-1">
                                             <p></p>
                                         </div>
                                     </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/IMG_7525.JPG"></a>
                                 </div>
                             </div>
 
-														<div data-uk-filter="ALL">
+                            <div data-uk-filter="ALL">
                                 <div class="uk-panel">
                                     <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/IMG_7080.JPG" alt="gall-img-016">
+                                        <img class="uk-overlay-scale" src="./images/IMG_7550.JPG" alt="" style="width:350px;height:300px;">
                                     </figure>
                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
                                         <div class="tm-my-overlay uk-width-1-1">
                                             <p></p>
                                         </div>
                                     </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/IMG_7550.JPG"></a>
                                 </div>
                             </div>
 
-														<div data-uk-filter="ALL">
+                            <div data-uk-filter="ALL">
                                 <div class="uk-panel">
                                     <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/IMG_7087.JPG" alt="gall-img-016">
+                                        <img class="uk-overlay-scale" src="./images/intercon_i.jpg" alt="" style="width:350px;height:300px;">
                                     </figure>
                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
                                         <div class="tm-my-overlay uk-width-1-1">
                                             <p></p>
                                         </div>
                                     </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/intercon_i.jpg"></a>
                                 </div>
                             </div>
 
-														<div data-uk-filter="ALL">
+                            <div data-uk-filter="ALL">
                                 <div class="uk-panel">
                                     <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/IMG_7093.JPG" alt="gall-img-016">
+                                        <img class="uk-overlay-scale" src="./images/intercon_ii.jpg" alt="" style="width:350px;height:300px;">
                                     </figure>
                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
                                         <div class="tm-my-overlay uk-width-1-1">
                                             <p></p>
                                         </div>
                                     </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/intercon_ii.jpg"></a>
                                 </div>
                             </div>
 
-														<div data-uk-filter="ALL">
+                            <div data-uk-filter="ALL">
                                 <div class="uk-panel">
                                     <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/IMG_7097.JPG" alt="gall-img-016">
+                                        <img class="uk-overlay-scale" src="./images/intercon_iii.jpg" alt="" style="width:350px;height:300px;">
                                     </figure>
                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
                                         <div class="tm-my-overlay uk-width-1-1">
                                             <p></p>
                                         </div>
                                     </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/intercon_iii.jpg"></a>
                                 </div>
                             </div>
 
-														<div data-uk-filter="ALL">
+                            <div data-uk-filter="ALL">
                                 <div class="uk-panel">
                                     <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/IMG_7104.JPG" alt="gall-img-016">
+                                        <img class="uk-overlay-scale" src="./images/Peace-Concert-i.jpg" alt="" style="width:350px;height:300px;">
                                     </figure>
                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
                                         <div class="tm-my-overlay uk-width-1-1">
                                             <p></p>
                                         </div>
                                     </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/Peace-Concert-i.jpg"></a>
                                 </div>
                             </div>
 
-														<div data-uk-filter="ALL">
+                            <div data-uk-filter="ALL">
                                 <div class="uk-panel">
                                     <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/IMG_7118.JPG" alt="gall-img-016">
+                                        <img class="uk-overlay-scale" src="./images/Peace-Concert-ii.jpg" alt="" style="width:350px;height:300px;">
                                     </figure>
                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
                                         <div class="tm-my-overlay uk-width-1-1">
                                             <p></p>
                                         </div>
                                     </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/Peace-Concert-ii.jpg"></a>
                                 </div>
                             </div>
 
-														<div data-uk-filter="ALL">
+                            <div data-uk-filter="ALL">
                                 <div class="uk-panel">
                                     <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/IMG_7495.JPG" alt="gall-img-016">
+                                        <img class="uk-overlay-scale" src="./images/Peace-Concert-iii.jpg" alt="" style="width:350px;height:300px;">
                                     </figure>
                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
                                         <div class="tm-my-overlay uk-width-1-1">
                                             <p></p>
                                         </div>
                                     </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/Peace-Concert-iii.jpg"></a>
                                 </div>
                             </div>
 
-														<div data-uk-filter="ALL">
+                            <div data-uk-filter="ALL">
                                 <div class="uk-panel">
                                     <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/IMG_7496.JPG" alt="gall-img-016">
+                                        <img class="uk-overlay-scale" src="./images/Peace-Concert-iv.jpg" alt="" style="width:350px;height:300px;">
                                     </figure>
                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
                                         <div class="tm-my-overlay uk-width-1-1">
                                             <p></p>
                                         </div>
                                     </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/Peace-Concert-iv.jpg"></a>
                                 </div>
                             </div>
 
-														<div data-uk-filter="ALL">
+                            <div data-uk-filter="ALL">
                                 <div class="uk-panel">
                                     <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/IMG_7500.JPG" alt="gall-img-016">
+                                        <img class="uk-overlay-scale" src="./images/Peace-Concert-v.jpg" alt="" style="width:350px;height:300px;">
                                     </figure>
                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
                                         <div class="tm-my-overlay uk-width-1-1">
                                             <p></p>
                                         </div>
                                     </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/Peace-Concert-v.jpg"></a>
                                 </div>
                             </div>
 
-														<div data-uk-filter="ALL">
+                           <div data-uk-filter="ALL">
                                 <div class="uk-panel">
                                     <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/IMG_7525.JPG" alt="gall-img-016">
+                                        <img class="uk-overlay-scale" src="./images/Peace-Concert-vi.jpg" alt="" style="width:350px;height:300px;">
                                     </figure>
                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
                                         <div class="tm-my-overlay uk-width-1-1">
                                             <p></p>
                                         </div>
                                     </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/Peace-Concert-vi.jpg"></a>
                                 </div>
                             </div>
 
-														<div data-uk-filter="ALL">
+                            <div data-uk-filter="ALL">
+                                 <div class="uk-panel">
+                                     <figure class="uk-overlay uk-overlay-hover">
+                                         <img class="uk-overlay-scale" src="./images/IMG-radio.jpg" alt="" style="width:350px;height:300px;">
+                                     </figure>
+                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
+                                         <div class="tm-my-overlay uk-width-1-1">
+                                             <p></p>
+                                         </div>
+                                     </div>
+                                     <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/IMG-radio.jpg"></a>
+                                 </div>
+                             </div>
+
+                             <div data-uk-filter="ALL">
+                                  <div class="uk-panel">
+                                      <figure class="uk-overlay uk-overlay-hover">
+                                          <img class="uk-overlay-scale" src="./images/IMG-radio2.jpg" alt="" style="width:350px;height:300px;">
+                                      </figure>
+                                      <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
+                                          <div class="tm-my-overlay uk-width-1-1">
+                                              <p></p>
+                                          </div>
+                                      </div>
+                                      <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/IMG-radio2.jpg"></a>
+                                  </div>
+                              </div>
+
+                              <div data-uk-filter="ALL">
+                                   <div class="uk-panel">
+                                       <figure class="uk-overlay uk-overlay-hover">
+                                           <img class="uk-overlay-scale" src="./images/IMG-radio3.jpg" alt="" style="width:350px;height:300px;">
+                                       </figure>
+                                       <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
+                                           <div class="tm-my-overlay uk-width-1-1">
+                                               <p></p>
+                                           </div>
+                                       </div>
+                                       <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/IMG-radio3.jpg"></a>
+                                   </div>
+                               </div>
+
+
+
+                            <div data-uk-filter="ALL">
                                 <div class="uk-panel">
                                     <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/IMG_7550.JPG" alt="gall-img-016">
+                                        <img class="uk-overlay-scale" src="./images/IMG_7495.JPG" alt="" style="width:350px;height:300px;">
                                     </figure>
                                     <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
                                         <div class="tm-my-overlay uk-width-1-1">
                                             <p></p>
                                         </div>
                                     </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
+                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/IMG_7495.JPG"></a>
                                 </div>
                             </div>
-
-														<div data-uk-filter="ALL">
-                                <div class="uk-panel">
-                                    <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/intercon_i.jpg" alt="gall-img-016">
-                                    </figure>
-                                    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
-                                        <div class="tm-my-overlay uk-width-1-1">
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
-                                </div>
-                            </div>
-
-														<div data-uk-filter="ALL">
-                                <div class="uk-panel">
-                                    <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/intercon_ii.jpg" alt="gall-img-016">
-                                    </figure>
-                                    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
-                                        <div class="tm-my-overlay uk-width-1-1">
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
-                                </div>
-                            </div>
-
-														<div data-uk-filter="ALL">
-                                <div class="uk-panel">
-                                    <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/intercon_iii.jpg" alt="gall-img-016">
-                                    </figure>
-                                    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
-                                        <div class="tm-my-overlay uk-width-1-1">
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
-                                </div>
-                            </div>
-
-														<div data-uk-filter="ALL">
-                                <div class="uk-panel">
-                                    <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/intercon_iv.jpg" alt="gall-img-016">
-                                    </figure>
-                                    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
-                                        <div class="tm-my-overlay uk-width-1-1">
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
-                                </div>
-                            </div>
-
-														<div data-uk-filter="ALL">
-                                <div class="uk-panel">
-                                    <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/intercon_v.jpg" alt="gall-img-016">
-                                    </figure>
-                                    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
-                                        <div class="tm-my-overlay uk-width-1-1">
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
-                                </div>
-                            </div>
-
-														<div data-uk-filter="ALL">
-                                <div class="uk-panel">
-                                    <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/intercon_vi.jpg" alt="gall-img-016">
-                                    </figure>
-                                    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
-                                        <div class="tm-my-overlay uk-width-1-1">
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
-                                </div>
-                            </div>
-
-														<div data-uk-filter="ALL">
-                                <div class="uk-panel">
-                                    <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/Peace-Concert-i.jpg" alt="gall-img-016">
-                                    </figure>
-                                    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
-                                        <div class="tm-my-overlay uk-width-1-1">
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
-                                </div>
-                            </div>
-
-														<div data-uk-filter="ALL">
-                                <div class="uk-panel">
-                                    <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/Peace-Concert-ii.jpg" alt="gall-img-016">
-                                    </figure>
-                                    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
-                                        <div class="tm-my-overlay uk-width-1-1">
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
-                                </div>
-                            </div>
-
-														<div data-uk-filter="ALL">
-                                <div class="uk-panel">
-                                    <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/Peace-Concert-iii.jpg" alt="gall-img-016">
-                                    </figure>
-                                    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
-                                        <div class="tm-my-overlay uk-width-1-1">
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
-                                </div>
-                            </div>
-
-														<div data-uk-filter="ALL">
-                                <div class="uk-panel">
-                                    <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/Peace-Concert-iv.jpg" alt="gall-img-016">
-                                    </figure>
-                                    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
-                                        <div class="tm-my-overlay uk-width-1-1">
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
-                                </div>
-                            </div>
-
-														<div data-uk-filter="ALL">
-                                <div class="uk-panel">
-                                    <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/Peace-Concert-v.jpg" alt="gall-img-016">
-                                    </figure>
-                                    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
-                                        <div class="tm-my-overlay uk-width-1-1">
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
-                                </div>
-                            </div>
-
-														<div data-uk-filter="ALL">
-                                <div class="uk-panel">
-                                    <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/Peace-Concert-vi.jpg" alt="gall-img-016">
-                                    </figure>
-                                    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
-                                        <div class="tm-my-overlay uk-width-1-1">
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
-                                </div>
-                            </div>
-
-														<div data-uk-filter="ALL">
-                                <div class="uk-panel">
-                                    <figure class="uk-overlay uk-overlay-hover">
-                                        <img class="uk-overlay-scale" src="./images/intercon_.jpg" alt="gall-img-016">
-                                    </figure>
-                                    <div class="uk-position-cover uk-flex uk-flex-center uk-flex-bottom">
-                                        <div class="tm-my-overlay uk-width-1-1">
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                    <a class="uk-position-cover" data-uk-lightbox="{group:'gallery-group'}" data-lightbox-type="image" href="./images/gall-img-016.jpg"></a>
-                                </div>
-                            </div>
-
-
-
                         </div>
                     </div>
                 </div>
@@ -671,7 +590,11 @@
             <div class="uk-width-1-1 uk-width-large-1-2">
                 <div class="uk-panel tm-p-medium  widget_text">
                     <div class="tm-text-left">
-                        © 2017 IDN-Kenya.
+			Nantie Gardens, Block A Room 304<br>
+			Mbaazi Avenue, Valley Arcade<br>
+			P.O.Box 12023 - 00100, Nairobi, Kenya<br>
+                        ©2017 IDN-Kenya.
+
                     </div>
                 </div>
             </div>
@@ -680,20 +603,12 @@
                 <div class="uk-panel uk-hidden-medium uk-hidden-small tm-p-medium  widget_text">
                     <div class="tm-text-right">
                         <ul class="social-icons">
-                            <li><a href="http://www.facebook.com" target="_blank"><i class="uk-icon-facebook-f"></i></a>
-                            </li>
-                            <li><a href="http://twitter.com/" target="_blank"><i class="uk-icon-twitter"></i></a>
-                            </li>
-                            <li><a href="http://plus.google.com/" target="_blank"><i class="uk-icon-google-plus"></i></a>
-                            </li>
-                            <li><a href="http://www.linkedin.com" target="_blank"><i class="uk-icon-linkedin"></i></a>
-                            </li>
-                            <li><a href="http://www.youtube.com/" target="_blank"><i class="uk-icon-youtube"></i></a>
-                            </li>
-                            <li><a href="http://vk.com/" target="_blank"><i class="uk-icon-vk"></i></a>
-                            </li>
-                            <li><a href="http://instagram.com/" target="_blank"><i class="uk-icon-instagram"></i></a>
-                            </li>
+                          <li><a href="http://www.facebook.com/www.idnkenya.org/" target="_blank"><i class="uk-icon-facebook-f"></i></a>
+                          </li>
+                          <li><a href="http://twitter.com/IdnKenya" target="_blank"><i class="uk-icon-twitter"></i></a>
+                          </li>
+
+
                         </ul>
                     </div>
                 </div>
@@ -703,81 +618,6 @@
     <!-- end full width -->
 </footer>
 
-<div id="offcanvas" class="uk-offcanvas">
-    <div class="uk-offcanvas-bar">
-        <div class="uk-panel widget_search">
-            <form class="uk-search" id="search-3" method="get" role="search">
-                <input class="uk-search-field" type="text" value="" name="s" placeholder="search...">
-            </form>
-        </div>
-        <ul class="uk-nav uk-nav-offcanvas">
-            <li class="uk-parent"><a href="index.html" class="">HOME</a>
-                <ul class="uk-nav-sub">
-                    <li><a href="index-home2.html" class="">HOME 2</a>
-                    </li>
-                    <li><a href="index-home3.html" class="">HOME 3</a>
-                    </li>
-                    <li><a href="../chocolate/index.html" class="">CHOCOLATE STYLE</a>
-                    </li>
-                    <li><a href="../blue/index.html" class="">GREEN STYLE</a>
-                    </li>
-                    <li><a href="../green/index.html" class="">BLUE STYLE</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="uk-parent"><a href="about-us.html" class="">ABOUT US</a>
-                <ul class="uk-nav-sub">
-                    <li><a href="layouts.html" class="">LAYOUTS</a>
-                    </li>
-                    <li><a href="offline.html" class="">MAINTENANCE</a>
-                    </li>
-                    <li><a href="coming.html" class="">COMING SOON</a>
-                    </li>
-                    <li><a href="error.html" class="">ERROR PAGE</a>
-                    </li>
-                    <li><a href="single-article.html" class="">SINGLE ARTICLE</a>
-                    </li>
-                    <li><a href="left-content.html" class="">LEFT + CONTENT</a>
-                    </li>
-                    <li><a href="left-right-content.html" class="">LEFT + RIGHT + CONTENT</a>
-                    </li>
-                    <li><a href="left-content-right.html" class="">LEFT + CONTENT + RIGHT</a>
-                    </li>
-                    <li><a href="content-right.html" class="">CONTENT + RIGHT</a>
-                    </li>
-                    <li><a href="content-left-right.html" class="">CONTENT + LEFT + RIGHT</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="uk-parent"><a href="event.html" class="">EVENT</a>
-                <ul class="uk-nav-sub">
-                    <li><a href="event-list.html" class="">EVENT LIST</a>
-                    </li>
-                </ul>
-            </li>
-            <li><a href="sermons.html" class="">SERMONS</a>
-            </li>
-            <li class="uk-parent"><a href="blog.html" class="">BLOG</a>
-                <ul class="uk-nav-sub">
-                    <li><a href="our-pastors.html" class="">OUR PASTORS</a>
-                    </li>
-                    <li><a href="testimonials.html" class="">TESTIMONIALS</a>
-                    </li>
-                    <li><a href="faq.html" class="">HELP</a>
-                    </li>
-                </ul>
-            </li>
-            <li><a href="gallery.html" class="">GALLERY</a>
-            </li>
-            <li><a href="donations.html" class="">DONATIONS</a>
-            </li>
-            <li><a href="shop.html" class="">SHOP</a>
-            </li>
-            <li><a href="contact-us.html" class="">CONTACT US</a>
-            </li>
-        </ul>
-    </div>
-</div>
 
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/uikit.js"></script>

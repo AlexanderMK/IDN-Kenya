@@ -1,0 +1,42 @@
+body
+{
+  background-color: #fcfcfc;
+}
+.container
+{
+  text-align: left;
+  padding: 20px;
+}
+.left-div
+{
+  display: inline-block;
+  max-width: 500px;
+  text-align: left;
+  padding: 10px;
+  background-color: #e5fae5;
+  border-radius: 2px;
+  margin: 15px;
+  vertical-align: top;
+}
+.right-div
+{
+  display: inline-block;
+  max-width: 500px;
+  text-align: left;
+  padding: 40px;
+  background-color: ;
+  border-radius: 3px;
+  margin: 15px;
+}
+.left-text, .right-text
+{
+  font: 300 16px/1.6 'Helvetica Neue' sans-serif;
+	color: #333;
+}
+@media screen and (max-width: 600px)
+{
+  .left-div, .right-div
+    {
+       max-width: 100%;
+    }
+}
